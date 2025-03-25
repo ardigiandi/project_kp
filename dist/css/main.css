@@ -585,6 +585,10 @@ html {
   margin-top: 2rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .block{
   display: block;
 }
@@ -625,6 +629,10 @@ html {
   width: 299px;
 }
 
+.w-\[350px\]{
+  width: 350px;
+}
+
 .w-\[441\.53px\]{
   width: 441.53px;
 }
@@ -637,12 +645,24 @@ html {
   width: 601px;
 }
 
-.w-\[628px\]{
-  width: 628px;
-}
-
 .w-full{
   width: 100%;
+}
+
+.w-\[300px\]{
+  width: 300px;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[635px\]{
+  width: 635px;
+}
+
+.w-\[600px\]{
+  width: 600px;
 }
 
 .max-w-6xl{
@@ -709,8 +729,16 @@ html {
   gap: 1.25rem;
 }
 
+.gap-7{
+  gap: 1.75rem;
+}
+
 .gap-8{
   gap: 2rem;
+}
+
+.gap-9{
+  gap: 2.25rem;
 }
 
 .rounded-md{
@@ -725,8 +753,8 @@ html {
   border-radius: 0.75rem;
 }
 
-.rounded{
-  border-radius: 0.25rem;
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .bg-background{
@@ -734,9 +762,24 @@ html {
   background-color: rgb(245 247 250 / var(--tw-bg-opacity, 1));
 }
 
+.bg-dongker{
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 50 56 / var(--tw-bg-opacity, 1));
+}
+
 .bg-hijau{
   --tw-bg-opacity: 1;
   background-color: rgb(76 175 79 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
 }
 
 .p-4{
@@ -750,6 +793,11 @@ html {
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-\[140px\]{
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .py-2{
@@ -767,6 +815,26 @@ html {
   padding-bottom: 2rem;
 }
 
+.py-9{
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.py-\[64px\]{
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -779,11 +847,6 @@ html {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl{
@@ -821,6 +884,11 @@ html {
 .text-abu{
   --tw-text-opacity: 1;
   color: rgb(77 77 77 / var(--tw-text-opacity, 1));
+}
+
+.text-background{
+  --tw-text-opacity: 1;
+  color: rgb(245 247 250 / var(--tw-text-opacity, 1));
 }
 
 .text-hijau{
@@ -893,16 +961,24 @@ html {
     width: 542px;
   }
 
+  .lg\:w-\[628px\]{
+    width: 628px;
+  }
+
   .lg\:w-\[657px\]{
     width: 657px;
   }
 
-  .lg\:w-\[285px\]{
-    width: 285px;
+  .lg\:w-\[700px\]{
+    width: 700px;
   }
 
-  .lg\:w-\[628px\]{
-    width: 628px;
+  .lg\:w-\[300px\]{
+    width: 300px;
+  }
+
+  .lg\:w-\[600px\]{
+    width: 600px;
   }
 
   .lg\:flex-row{
@@ -953,6 +1029,11 @@ html {
     padding-right: 144px;
   }
 
+  .lg\:py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
   .lg\:py-3\.5{
     padding-top: 0.875rem;
     padding-bottom: 0.875rem;
@@ -961,6 +1042,11 @@ html {
   .lg\:py-\[84px\]{
     padding-top: 84px;
     padding-bottom: 84px;
+  }
+
+  .lg\:px-\[140px\]{
+    padding-left: 140px;
+    padding-right: 140px;
   }
 
   .lg\:text-4xl{
