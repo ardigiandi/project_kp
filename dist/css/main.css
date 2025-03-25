@@ -617,12 +617,12 @@ html {
   width: 200;
 }
 
-.w-\[299px\]{
-  width: 299px;
+.w-\[285px\]{
+  width: 285px;
 }
 
-.w-\[326px\]{
-  width: 326px;
+.w-\[299px\]{
+  width: 299px;
 }
 
 .w-\[441\.53px\]{
@@ -635,6 +635,10 @@ html {
 
 .w-\[601px\]{
   width: 601px;
+}
+
+.w-\[628px\]{
+  width: 628px;
 }
 
 .w-full{
@@ -709,10 +713,6 @@ html {
   gap: 2rem;
 }
 
-.gap-7{
-  gap: 1.75rem;
-}
-
 .rounded-md{
   border-radius: 0.375rem;
 }
@@ -725,6 +725,10 @@ html {
   border-radius: 0.75rem;
 }
 
+.rounded{
+  border-radius: 0.25rem;
+}
+
 .bg-background{
   --tw-bg-opacity: 1;
   background-color: rgb(245 247 250 / var(--tw-bg-opacity, 1));
@@ -733,6 +737,10 @@ html {
 .bg-hijau{
   --tw-bg-opacity: 1;
   background-color: rgb(76 175 79 / var(--tw-bg-opacity, 1));
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .p-6{
@@ -763,18 +771,24 @@ html {
   text-align: center;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-\[28px\]{
-  font-size: 28px;
 }
 
 .text-base{
@@ -790,11 +804,6 @@ html {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold{
@@ -829,6 +838,12 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.shadow-custom{
+  --tw-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  --tw-shadow-colored: 0px 8px 16px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 1024px){
   .lg\:mt-24{
     margin-top: 6rem;
@@ -846,12 +861,16 @@ html {
     display: none;
   }
 
+  .lg\:h-\[300px\]{
+    height: 300px;
+  }
+
   .lg\:h-\[407px\]{
     height: 407px;
   }
 
-  .lg\:h-\[300px\]{
-    height: 300px;
+  .lg\:w-\[326px\]{
+    width: 326px;
   }
 
   .lg\:w-\[391px\]{
@@ -878,8 +897,12 @@ html {
     width: 657px;
   }
 
-  .lg\:w-\[326px\]{
-    width: 326px;
+  .lg\:w-\[285px\]{
+    width: 285px;
+  }
+
+  .lg\:w-\[628px\]{
+    width: 628px;
   }
 
   .lg\:flex-row{
@@ -953,5 +976,10 @@ html {
   .lg\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .lg\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
